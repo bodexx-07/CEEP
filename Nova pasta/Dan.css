@@ -1,0 +1,41 @@
+:root {
+        --primary-color: #595959;
+        --secondary-color: #333;
+        --bg-color: #f9f9f9;
+        --font-family: "Playfair Display", serif;
+        --shadow: rgba(0,0,0,0.3);
+        --transition-speed: 0.3s;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+div{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #f9f9f9;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+main{
+    background: linear-gradient(45deg, var(--primary-color),#49167c);
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px var(--shadow);
+    border-radius: 50px;
+    text-align: center;
+}
